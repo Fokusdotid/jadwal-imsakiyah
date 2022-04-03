@@ -32,6 +32,7 @@ function MainTable() {
       <div className="d-flex flex-column justify-content-center align-items-center main">
         <div className="box"></div>
         <h1 className="text-center text-success"> Loading ...</h1>
+        <h2 className="text-center text-success"> This Web Made By Aguz Familia </h2>
       </div>
     );
   if (error) console.error("Error Fetching Data in", error);
