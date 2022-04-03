@@ -14,7 +14,7 @@ function MainTable() {
     setLoading(true);
     axios
       .get(
-        "https://imsakiyah-api.santrikoding.com/imsyakiyah?state=6LoSW8f3n%252F%252FZESP8H%252B5pWRA%252F%252BemLrg67rbWZWm9%252Fx2KZ97lqEpSeRiH94WyxnOQyTNZX%252FEsObmFTFtc26hxbZQ%253D%253D&city=C3r1z9yE6x3dzs5ABv5LTnXmUCuRvQddvlPF7Zo7qkcgalmabY89N9VkcRmmQnlVcBtmf1Ifr210o2gEfq6lzg%253D%253D&year=2022"
+        "https://imsakiyah-api.santrikoding.com/imsyakiyah?state=%252B3tvtzUQPb70Q0MCTHkzaqc1ltYTYv5nuh21Y9SKKo1XoPYRet7C6T%252FwzHLRCkPDjO8ydXoG5nRf8NauChK1wQ%253D%253D&city=4q8k4JiAeZtm1WmT4Ms1sPcHxST4BSkzzwvAlkODn3AZlcSD8M%2FlUHHHexKsEUgAc%2F3NhlB8GzhHGbPG6wShwQ%3D%3D&year=2022"
       )
       .then((response) => {
         setTimes(response.data.data);
